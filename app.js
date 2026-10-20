@@ -45,7 +45,7 @@
       { src: 'trip/B612_20261014_154045_564.jpg_compressed.JPEG', alt: '절벽 사이로 이어지는 맑고 푸른 산악 호수', caption: '펜지켄트 7개 호수의 물빛', own: true },
       { src: 'trip/SNOW_20261014_125456_791.jpg_compressed.JPEG', alt: '판 산맥 호숫가에서 바라본 설산과 맑은 하늘', caption: '호수 위로 펼쳐진 산악 풍경', own: true },
       { src: 'trip/20261014_080629.jpg_compressed.JPEG', alt: '우즈베키스탄과 타지키스탄 국경의 소박한 검문소와 출입국 게이트', caption: '우즈베키스탄·타지키스탄 국경 검문소', own: true },
-      { src: 'trip/20261014_202711.jpg_compressed.JPEG', alt: 'Avandia food에서 주문한 여러 종류의 샤실릭과 구운 채소', caption: 'Avandia food의 샤실릭과 케밥', own: true }
+      { src: 'trip/20261014_202726.jpg_compressed.JPEG', alt: 'Avandia food에서 주문한 샤실릭과 케밥, 구운 채소와 음료', caption: 'Avandia food의 샤실릭과 저녁 식탁', own: true }
     ],
     7: [
       { src: 'trip/20261015_134401.jpg_compressed.JPEG', alt: '사마르칸트에서 타슈켄트로 향하는 고속버스', caption: '타슈켄트행 버스 탑승', own: true },
@@ -152,7 +152,7 @@
     let guideOpen = false;
     const placedPhotos = new Set();
     const renderContextPhoto = (index) => {
-      const flowClass = dayNumber === 6 && index === 1 ? 'photo-card--day6-a' : dayNumber === 6 && index === 3 ? 'photo-card--day6-b' : '';
+      const flowClass = dayNumber === 6 && index === 1 ? 'photo-card--day6-a' : dayNumber === 6 && index === 3 ? 'photo-card--day6-b' : dayNumber === 6 && index === 6 ? 'photo-card--flow-left' : '';
       return renderPhoto(photos[dayNumber][index], true, flowClass);
     };
     const insertContextPhotos = (text) => {
