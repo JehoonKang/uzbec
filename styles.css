@@ -42,7 +42,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .source-link { justify-self: end; padding: .65rem .85rem; border: 1px solid var(--line); }
 .source-link span { margin-left: .35rem; }
 .mobile-menu { display: none; }
-#prologue, #timeline, #journey, #epilogue, #manuscript { scroll-margin-top: calc(var(--header-height) + 60px); }
+#prologue, #timeline, #journey, #epilogue { scroll-margin-top: calc(var(--header-height) + 60px); }
 .day-nav { position: sticky; z-index: 25; top: var(--header-height); display: flex; gap: 2rem; align-items: center; min-height: 52px; padding: 0 clamp(1rem, 4vw, 4.8rem); border-bottom: 1px solid var(--line); background: rgba(245, 240, 229, .95); backdrop-filter: blur(12px); }
 .day-nav-label { flex: 0 0 auto; font: .65rem var(--sans); color: var(--muted); letter-spacing: .08em; }
 .day-nav-items { display: flex; gap: clamp(.9rem, 2vw, 2rem); align-items: center; width: 100%; overflow-x: auto; scrollbar-width: thin; }
@@ -198,10 +198,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .closing-star { color: var(--terra); font-size: 2rem; }
 .closing-note p { font-size: 1.2rem; line-height: 1.9; }
 .closing-note a { color: var(--teal); font-size: .76rem; text-underline-offset: .25rem; }
-.source-book { width: min(100% - 2rem, 980px); margin: 4rem auto; border: 1px solid var(--line); background: rgba(255,255,255,.3); }
-.source-book summary { cursor: pointer; padding: 1rem 1.2rem; color: var(--teal); font-size: .86rem; }
-.source-book summary span { margin-left: .5rem; color: var(--muted); font-size: .7rem; }
-.source-book pre { max-height: 75vh; overflow: auto; margin: 0; padding: 1rem 1.2rem; border-top: 1px solid var(--line); white-space: pre-wrap; overflow-wrap: anywhere; color: #45544e; font: .75rem/1.8 ui-monospace, Consolas, monospace; }
 .site-footer { display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 1.5rem; min-height: 100px; margin: 2rem auto; padding: 1.5rem; color: var(--ink); text-align: center; }
 
 .site-footer a { color: inherit; text-underline-offset: .25rem; }
@@ -300,8 +296,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .guide-visual { width: min(42%, 220px); margin-left: .85rem; }
   .guide-visual .photo-card img { height: auto; max-height: 190px; object-fit: cover; }
   .guide-copy h3 { padding-right: .6rem; }
-  .source-book { width: calc(100% - 1.5rem); }
-  .source-book summary span { display: block; margin: .35rem 0 0; }
   .site-footer { flex-direction: column; gap: .6rem; text-align: center; }
 }
 @media (max-width: 380px) {
