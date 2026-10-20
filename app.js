@@ -140,7 +140,7 @@
     6: [/$^/, /첫 번째 호수에 도착했을 때/, /거친 비포장도로로 순식간에|거친 돌산을 이리저리/, /각각의 호수를 지날 때마다/, /하얀 설산과 형형색색/, /얼마 후 도착한 국경 지대는/, /Avandia food\(아반디아 푸드\).*찾아냈다/],
     7: [/드디어 버스에 올랐다|버스 계단을 올라타는 순간/, /각 섹션별로 견과류/, /물길 위에서 화려한 분수쇼|주변을 둘러보니,.*서울문/, /$^/],
     8: [/도착한 곳은 바로 아미르소이 리조트/, /창밖으로 펼쳐지는 주변 광경/, /$^/, /$^/, /실제로 마주한 차르박 호수의 풍경/, /호숫가 주변에 멈춰 서서/, /다가오는 의자에 타이밍을 딱 맞춰 겨우겨우 탑승에 성공했다/],
-    9: [/초르수 바자르|타슈켄트의 심장부/, /아미르 테무르 박물관.*외관 모양/, /박물관 문을 열고 들어가자마자/]
+    9: [/초르수 바자르|타슈켄트의 심장부/, /아미르 테무르 박물관.*안으로 들어섰다/, /$^/]
   };
   const photoPlacementBeforeRules = {
     3: [null, /본격적인 빵 만들기가 시작/],
@@ -156,7 +156,7 @@
     let guideOpen = false;
     const placedPhotos = new Set();
     const renderContextPhoto = (index) => {
-      const flowClass = dayNumber === 6 && index === 1 ? 'photo-card--day6-a' : dayNumber === 6 && index === 3 ? 'photo-card--day6-b' : (dayNumber === 6 && index === 6) || (dayNumber === 9 && index === 1) ? 'photo-card--flow-left' : '';
+      const flowClass = dayNumber === 6 && index === 1 ? 'photo-card--day6-a' : dayNumber === 6 && index === 3 ? 'photo-card--day6-b' : dayNumber === 6 && index === 6 ? 'photo-card--flow-left' : '';
       return renderPhoto(photos[dayNumber][index], true, flowClass);
     };
     const insertContextPhotos = (text) => {
@@ -164,7 +164,10 @@
       const rules = photoPlacementRules[dayNumber] || [];
       rules.forEach((rule, index) => {
         if (!placedPhotos.has(index) && rule.test(text) && photos[dayNumber]?.[index]) {
-          if (dayNumber === 7 && index === 1 && photos[dayNumber]?.[3]) {
+          if (dayNumber === 9 && index === 1 && photos[dayNumber]?.[2]) {
+            out.push(`<div class="photo-pair photo-pair--museum">${renderPhoto(photos[dayNumber][1])}${renderPhoto(photos[dayNumber][2])}</div>`);
+            placedPhotos.add(2);
+          } else if (dayNumber === 7 && index === 1 && photos[dayNumber]?.[3]) {
             out.push(`<div class="photo-pair">${renderPhoto(photos[dayNumber][1])}${renderPhoto(photos[dayNumber][3])}</div>`);
             placedPhotos.add(3);
           } else if (dayNumber === 8 && index === 1 && photos[dayNumber]?.[2] && photos[dayNumber]?.[3]) {

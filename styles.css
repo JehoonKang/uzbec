@@ -150,6 +150,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .photo-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(.8rem, 2vw, 1.5rem); width: min(100%, 680px); margin: 1.8rem auto 2.4rem; clear: both; }
 .photo-pair .photo-card { min-width: 0; background: transparent; }
 .photo-pair .photo-card img { width: 100%; height: clamp(260px, 34vw, 390px); object-fit: contain; background: #eee6d8; }
+.photo-pair--museum { width: min(100%, 520px); grid-template-columns: repeat(2, minmax(0, 210px)); justify-content: center; gap: clamp(.75rem, 2vw, 1.25rem); }
+.photo-pair--museum .photo-card img { width: 100%; height: auto; aspect-ratio: 1280 / 2274; object-fit: cover; background: transparent; }
 .photo-triptych { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(.45rem, 1.3vw, 1rem); width: min(100%, 900px); margin: 1.8rem auto 2.4rem; clear: both; }
 .photo-triptych .photo-card { min-width: 0; background: transparent; }
 .photo-triptych .photo-card img { width: 100%; height: clamp(220px, 28vw, 340px); object-fit: contain; background: #eee6d8; }
@@ -281,6 +283,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .day-gallery { grid-template-columns: 1fr; gap: .65rem; margin: 1rem 0 2.2rem; }
   .photo-pair { width: min(100%, 560px); gap: .55rem; margin: 1.2rem auto 1.8rem; }
   .photo-pair .photo-card img { height: clamp(190px, 54vw, 280px); }
+  .photo-pair--museum { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; width: min(100%, 430px); }
+  .photo-pair--museum .photo-card img { height: auto; }
   .photo-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .3rem; width: 100%; margin: 1.2rem auto 1.8rem; }
   .photo-triptych .photo-card img { height: clamp(140px, 43vw, 220px); }
   .photo-triptych .photo-card figcaption { gap: .15rem; padding: .4rem .15rem; font-size: .58rem; }
