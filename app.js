@@ -62,7 +62,11 @@
       { src: 'trip/20261016_153447.jpg_compressed.JPEG', alt: '산과 맞닿은 차르박 호수의 넓은 풍경', caption: '차르박 호수와 주변 산맥', own: true },
       { src: 'trip/20261016_141639.jpg_compressed.JPEG', alt: '침간산의 바위 경사면을 오르는 야외 체어리프트', caption: '침간산 체어리프트에 오르며', own: true }
     ],
-    9: [{ src: 'destinations/tashkent-chorsu-bazaar.jpg', alt: '초르수 바자르의 큰 돔 아래 펼쳐진 실내 시장', caption: '타슈켄트 초르수 바자르 참고 사진', credit: 'Benjamin Goetzinger · CC BY-SA 4.0', href: 'https://commons.wikimedia.org/wiki/File:Chorsu_bazaar_in_Tashkent,_Uzbekistan.jpg', license: 'https://creativecommons.org/licenses/by-sa/4.0/' }]
+    9: [
+      { src: 'destinations/tashkent-chorsu-bazaar.jpg', alt: '초르수 바자르의 큰 돔 아래 펼쳐진 실내 시장', caption: '타슈켄트 초르수 바자르 참고 사진', credit: 'Benjamin Goetzinger · CC BY-SA 4.0', href: 'https://commons.wikimedia.org/wiki/File:Chorsu_bazaar_in_Tashkent,_Uzbekistan.jpg', license: 'https://creativecommons.org/licenses/by-sa/4.0/' },
+      { src: 'trip/20261017_120323.jpg_compressed.JPEG', alt: '푸른 돔과 유르트를 닮은 둥근 지붕이 있는 아미르 테무르 박물관 외관', caption: '아미르 테무르 박물관의 푸른 돔', own: true },
+      { src: 'trip/20261017_123826.jpg_compressed.JPEG', alt: '아미르 테무르 박물관에 전시된 아미르 테무르의 초상화', caption: '박물관에서 만난 아미르 테무르 초상화', own: true }
+    ]
   };
 
   if (!source) {
@@ -136,7 +140,7 @@
     6: [/$^/, /첫 번째 호수에 도착했을 때/, /거친 비포장도로로 순식간에|거친 돌산을 이리저리/, /각각의 호수를 지날 때마다/, /하얀 설산과 형형색색/, /얼마 후 도착한 국경 지대는/, /Avandia food\(아반디아 푸드\).*찾아냈다/],
     7: [/드디어 버스에 올랐다|버스 계단을 올라타는 순간/, /각 섹션별로 견과류/, /물길 위에서 화려한 분수쇼|주변을 둘러보니,.*서울문/, /$^/],
     8: [/도착한 곳은 바로 아미르소이 리조트/, /창밖으로 펼쳐지는 주변 광경/, /$^/, /$^/, /실제로 마주한 차르박 호수의 풍경/, /호숫가 주변에 멈춰 서서/, /다가오는 의자에 타이밍을 딱 맞춰 겨우겨우 탑승에 성공했다/],
-    9: [/초르수 바자르|타슈켄트의 심장부/]
+    9: [/초르수 바자르|타슈켄트의 심장부/, /아미르 테무르 박물관.*외관 모양/, /박물관 문을 열고 들어가자마자/]
   };
   const photoPlacementBeforeRules = {
     3: [null, /본격적인 빵 만들기가 시작/],
@@ -152,7 +156,7 @@
     let guideOpen = false;
     const placedPhotos = new Set();
     const renderContextPhoto = (index) => {
-      const flowClass = dayNumber === 6 && index === 1 ? 'photo-card--day6-a' : dayNumber === 6 && index === 3 ? 'photo-card--day6-b' : dayNumber === 6 && index === 6 ? 'photo-card--flow-left' : '';
+      const flowClass = dayNumber === 6 && index === 1 ? 'photo-card--day6-a' : dayNumber === 6 && index === 3 ? 'photo-card--day6-b' : (dayNumber === 6 && index === 6) || (dayNumber === 9 && index === 1) ? 'photo-card--flow-left' : '';
       return renderPhoto(photos[dayNumber][index], true, flowClass);
     };
     const insertContextPhotos = (text) => {
