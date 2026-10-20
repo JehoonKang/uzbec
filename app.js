@@ -4,7 +4,7 @@
   const source = window.TRAVEL_MANUSCRIPT;
 
   const photos = {
-    1: [{ src: 'destinations/tashkent-airport-exterior.jpg', alt: '해 질 무렵 관제탑과 터미널이 보이는 타슈켄트 국제공항 외관', caption: '타슈켄트 국제공항 외관 참고 사진', credit: 'Giorgio Montersino · CC BY-SA 2.0', href: 'https://commons.wikimedia.org/wiki/File:Tashkent_International_Airport_backlight.jpg', license: 'https://creativecommons.org/licenses/by-sa/2.0/' }],
+    1: [{ src: 'destinations/tashkent-airport-exterior.jpg', alt: '밤에 푸른 TOSHKENT XALQARO AEROPORTI 간판이 선명하게 보이는 타슈켄트 국제공항 외관', caption: '타슈켄트 국제공항 외관 · Toshkent Xalqaro Aeroporti', credit: 'BeshevI · CC BY-SA 4.0', href: 'https://commons.wikimedia.org/wiki/File:Tashkent_IntAirport_202.jpg', license: 'https://creativecommons.org/licenses/by-sa/4.0/' }],
     2: [
       { src: 'trip/20261010_082220.jpg_compressed.JPEG', alt: '우즈베키스탄 항공기에서 내리는 승객들', caption: '우즈베키스탄 국내선 도착', own: true },
       { src: 'trip/20261010_103920.jpg_compressed.JPEG', alt: '이찬 칼라 안쪽의 테라사 레스토랑 외관', caption: '이찬 칼라 테라사 레스토랑', own: true },

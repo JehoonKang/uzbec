@@ -10,7 +10,7 @@
 
 | 앱 파일 | 사용처 | 저작자 | 라이선스 | 원본/출처 |
 |---|---|---|---|---|
-| `destinations/tashkent-airport-exterior.jpg` | 1일차 타슈켄트 국제공항 외관 참고 사진 | Giorgio Montersino | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) | [Wikimedia Commons 파일](https://commons.wikimedia.org/wiki/File:Tashkent_International_Airport_backlight.jpg) |
+| `destinations/tashkent-airport-exterior.jpg` | 1일차 타슈켄트 국제공항 외관 (간판이 보이는 야간 사진) | BeshevI | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [Wikimedia Commons 파일](https://commons.wikimedia.org/wiki/File:Tashkent_IntAirport_202.jpg) |
 | `destinations/bukhara-po-i-kalyan.jpg` | 4일차 부하라 유적 | Hylgeriak (Ekrem Canli) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | [Wikimedia Commons 파일](https://commons.wikimedia.org/wiki/File:Po-i-Kalyan_mosque_with_Kalyan_minaret.jpg) |
 | `destinations/samarkand-registan.jpg` | 표지 및 5일차 사마르칸트 | 원저작자 Gustavo Jeronimo, 파생 편집 MrPanyGoff | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) | [Wikimedia Commons 파일](https://commons.wikimedia.org/wiki/File:RegistanSquare_Samarkand.jpg). 원본 구도에 원근 보정이 적용된 이미지입니다. |
 | `destinations/tajikistan-seven-lakes.jpg` | 6일차 펜지겐트 7개 호수 | Шухрат Саъдиев | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [Wikimedia Commons 파일](https://commons.wikimedia.org/wiki/File:Lakes_of_Tajikistan_31.JPG). 파일 설명은 판 산맥의 호수라고 명시합니다. |
