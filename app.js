@@ -65,7 +65,8 @@
     9: [
       { src: 'destinations/tashkent-chorsu-bazaar.jpg', alt: '초르수 바자르의 큰 돔 아래 펼쳐진 실내 시장', caption: '타슈켄트 초르수 바자르 참고 사진', credit: 'Benjamin Goetzinger · CC BY-SA 4.0', href: 'https://commons.wikimedia.org/wiki/File:Chorsu_bazaar_in_Tashkent,_Uzbekistan.jpg', license: 'https://creativecommons.org/licenses/by-sa/4.0/' },
       { src: 'trip/20261017_120323.jpg_compressed.JPEG', alt: '푸른 돔과 유르트를 닮은 둥근 지붕이 있는 아미르 테무르 박물관 외관', caption: '아미르 테무르 박물관의 푸른 돔', own: true },
-      { src: 'trip/20261017_123826.jpg_compressed.JPEG', alt: '아미르 테무르 박물관에 전시된 아미르 테무르의 초상화', caption: '박물관에서 만난 아미르 테무르 초상화', own: true }
+      { src: 'trip/20261017_123826.jpg_compressed.JPEG', alt: '아미르 테무르 박물관에 전시된 아미르 테무르의 초상화', caption: '박물관에서 만난 아미르 테무르 초상화', own: true },
+      { src: 'trip/SNOW_20261017_121759_936.jpg_compressed.JPEG', alt: '아미르 테무르 박물관 내부의 화려한 돔 천장과 샹들리에', caption: '박물관 돔 천장과 샹들리에', own: true }
     ]
   };
 
@@ -140,7 +141,7 @@
     6: [/$^/, /첫 번째 호수에 도착했을 때/, /거친 비포장도로로 순식간에|거친 돌산을 이리저리/, /각각의 호수를 지날 때마다/, /하얀 설산과 형형색색/, /얼마 후 도착한 국경 지대는/, /Avandia food\(아반디아 푸드\).*찾아냈다/],
     7: [/드디어 버스에 올랐다|버스 계단을 올라타는 순간/, /각 섹션별로 견과류/, /물길 위에서 화려한 분수쇼|주변을 둘러보니,.*서울문/, /$^/],
     8: [/도착한 곳은 바로 아미르소이 리조트/, /창밖으로 펼쳐지는 주변 광경/, /$^/, /$^/, /실제로 마주한 차르박 호수의 풍경/, /호숫가 주변에 멈춰 서서/, /다가오는 의자에 타이밍을 딱 맞춰 겨우겨우 탑승에 성공했다/],
-    9: [/초르수 바자르|타슈켄트의 심장부/, /아미르 테무르 박물관.*안으로 들어섰다/, /$^/]
+    9: [/초르수 바자르|타슈켄트의 심장부/, /아미르 테무르 박물관.*안으로 들어섰다/, /$^/, /$^/]
   };
   const photoPlacementBeforeRules = {
     3: [null, /본격적인 빵 만들기가 시작/],
@@ -164,9 +165,10 @@
       const rules = photoPlacementRules[dayNumber] || [];
       rules.forEach((rule, index) => {
         if (!placedPhotos.has(index) && rule.test(text) && photos[dayNumber]?.[index]) {
-          if (dayNumber === 9 && index === 1 && photos[dayNumber]?.[2]) {
-            out.push(`<div class="photo-pair photo-pair--museum">${renderPhoto(photos[dayNumber][1])}${renderPhoto(photos[dayNumber][2])}</div>`);
+          if (dayNumber === 9 && index === 1 && photos[dayNumber]?.[2] && photos[dayNumber]?.[3]) {
+            out.push(`<div class="photo-triptych photo-triptych--museum">${renderPhoto(photos[dayNumber][1])}${renderPhoto(photos[dayNumber][2])}${renderPhoto(photos[dayNumber][3])}</div>`);
             placedPhotos.add(2);
+            placedPhotos.add(3);
           } else if (dayNumber === 7 && index === 1 && photos[dayNumber]?.[3]) {
             out.push(`<div class="photo-pair">${renderPhoto(photos[dayNumber][1])}${renderPhoto(photos[dayNumber][3])}</div>`);
             placedPhotos.add(3);
