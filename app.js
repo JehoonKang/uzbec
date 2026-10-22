@@ -160,6 +160,7 @@
     9: [/초르수 바자르|타슈켄트의 심장부/, /아미르 테무르 박물관.*안으로 들어섰다/, /$^/, /$^/, /타슈켄트 국제공항에 도착했다|공항으로 향했다/]
   };
   const photoPlacementBeforeRules = {
+    2: [null, null, null, null, null, null, null, null, /우리가 한국인인 걸 눈치챈 센스 만점 기사님/],
     3: [null, /본격적인 빵 만들기가 시작/],
     4: [null, /베시크\(Beshik\)/, null, null, null, /자리에 앉아 망설임 없이/, null, /안내되어 있는 옛 사진들을 보니/, /특히 붉은 꽃밭과 정갈한 구운 벽돌 건축물이/, null, null, null, /성에 오르는 길 이곳저곳을/],
     6: [/자, 이제 범핑 범핑\(Bumping Bumping\)/]
@@ -362,7 +363,7 @@
     source: bodySource.slice(match.index, dayMatches[index + 1]?.index ?? bodySource.length).trim()
   }));
 
-  const mapSvg = `<div class="route-map-wrap"><div class="route-map-viewport" tabindex="0" aria-label="지도를 좌우로 움직여 자세히 보기"><img class="route-map-image" src="./img/central-asia-route.svg?v=20261022-4" alt="Natural Earth 국가 경계와 실제 좌표를 사용해 그린 중앙아시아 여행 지도. 우르겐치와 히바에서 부하라, 사마르칸트, 펜지켄트와 7개 호수로 이어지고 타슈켄트, 침간산, 차르박 호수까지 표시했습니다."></div><div class="map-legend"><span><i class="legend-land"></i> 도시 간 이동</span><span><i class="legend-air"></i> 항공 이동</span><small>지도 표식을 누르면 해당 날짜의 여행기로 이동합니다. · 도시 위치 및 국경선: Natural Earth · <a href="https://www.naturalearthdata.com/">공개 지도 데이터</a>. 경로는 여행 순서를 연결한 개요입니다.</small></div><div class="map-place-links"><a href="#day-1">타슈켄트</a><a href="#day-2">우르겐치 · 히바</a><a href="#day-4">부하라</a><a href="#day-5">사마르칸트</a><a href="#day-6">펜지켄트 · 7개 호수</a><a href="#day-8">침간산 · 차르박</a></div></div>`;
+  const mapSvg = `<div class="route-map-wrap"><div class="route-map-viewport" tabindex="0" aria-label="지도를 좌우로 움직여 자세히 보기"><img class="route-map-image" src="./img/central-asia-route.svg?v=20261022-5" alt="Natural Earth 국가 경계와 실제 좌표를 사용해 그린 중앙아시아 여행 지도. 우르겐치와 히바에서 부하라, 사마르칸트, 펜지켄트와 7개 호수로 이어지고 타슈켄트, 침간산, 차르박 호수까지 표시했습니다."></div><div class="map-legend"><span><i class="legend-land"></i> 도시 간 이동</span><span><i class="legend-air"></i> 항공 이동</span><small>지도 표식을 누르면 해당 날짜의 여행기로 이동합니다. · 도시 위치 및 국경선: Natural Earth · <a href="https://www.naturalearthdata.com/">공개 지도 데이터</a>. 경로는 여행 순서를 연결한 개요입니다.</small></div><div class="map-place-links"><a href="#day-1">타슈켄트</a><a href="#day-2">우르겐치 · 히바</a><a href="#day-4">부하라</a><a href="#day-5">사마르칸트</a><a href="#day-6">펜지켄트 · 7개 호수</a><a href="#day-8">침간산 · 차르박</a></div></div>`;
 
   const dayNav = days.map((day) => {
     const date = day.title.match(/(\d{1,2})월\s*(\d{1,2})일/);
