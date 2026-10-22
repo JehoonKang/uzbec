@@ -57,7 +57,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-country { display: flex; align-items: center; gap: .8rem; color: #53645e; }
 .hero-country strong { display: block; font: 600 1.05rem var(--sans); letter-spacing: .18em; }
 .hero-country small { display: block; margin-top: .26rem; font-size: .82rem; color: #696f65; }
-.flag-uz { display: block; flex: 0 0 auto; width: 3.3rem; height: 1.65rem; border: 1px solid rgba(39,61,57,.18); border-radius: 2px; background: #fff url("./img/uzbekistan-flag.svg?v=20261022-5") center / 100% 100% no-repeat; box-shadow: 0 2px 5px rgba(39,61,57,.12); }
+.flag-uz { display: block; flex: 0 0 auto; width: 3.3rem; height: 1.65rem; border: 1px solid rgba(39,61,57,.18); border-radius: 2px; background: #fff url("./img/uzbekistan-flag.svg?v=20261022-6") center / 100% 100% no-repeat; box-shadow: 0 2px 5px rgba(39,61,57,.12); }
 .flag-uz i { display: none; }
 .eyebrow { margin: 0; font: 600 .75rem var(--sans); letter-spacing: .17em; color: var(--teal-light); }
 .hero-copy > .eyebrow { margin-top: clamp(2rem, 4vw, 3.7rem); }
@@ -300,11 +300,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .photo-pair .photo-card img { height: clamp(190px, 54vw, 280px); }
   .photo-pair--portraits { width: min(100%, 500px); gap: .5rem; }
   .photo-pair--portraits .photo-card img { height: clamp(210px, 62vw, 330px); }
-  .photo-gallery--lake { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .35rem; margin: 1.2rem auto 1.8rem; }
-  .photo-gallery--lake .photo-card { grid-column: span 2; }
-  .photo-gallery--lake .photo-card:nth-child(4) { grid-column: 1 / span 2; }
-  .photo-gallery--lake .photo-card:nth-child(5) { grid-column: 2 / span 2; }
-  .photo-gallery--lake .photo-card img { height: clamp(205px, 60vw, 280px); }
+  .photo-gallery--lake { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; margin: 1.2rem auto 1.8rem; }
+  .photo-gallery--lake .photo-card,
+  .photo-gallery--lake .photo-card:nth-child(4) { grid-column: auto; }
+  .photo-gallery--lake .photo-card:nth-child(5) { grid-column: 1 / -1; width: calc((100% - .5rem) / 2); justify-self: center; }
+  .photo-gallery--lake .photo-card img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
   .photo-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .3rem; width: 100%; margin: 1.2rem auto 1.8rem; }
   .photo-triptych--museum { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .4rem; width: min(100%, 560px); margin: 1.2rem auto 1.8rem; }
   .photo-triptych--museum .photo-card img { height: auto; }
