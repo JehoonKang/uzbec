@@ -57,7 +57,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-country { display: flex; align-items: center; gap: .8rem; color: #53645e; }
 .hero-country strong { display: block; font: 600 1.05rem var(--sans); letter-spacing: .18em; }
 .hero-country small { display: block; margin-top: .26rem; font-size: .82rem; color: #696f65; }
-.flag-uz { display: block; flex: 0 0 auto; width: 3.3rem; height: 1.65rem; border: 1px solid rgba(39,61,57,.18); border-radius: 2px; background: #fff url("./img/uzbekistan-flag.svg?v=20261022-3") center / 100% 100% no-repeat; box-shadow: 0 2px 5px rgba(39,61,57,.12); }
+.flag-uz { display: block; flex: 0 0 auto; width: 3.3rem; height: 1.65rem; border: 1px solid rgba(39,61,57,.18); border-radius: 2px; background: #fff url("./img/uzbekistan-flag.svg?v=20261022-4") center / 100% 100% no-repeat; box-shadow: 0 2px 5px rgba(39,61,57,.12); }
 .flag-uz i { display: none; }
 .eyebrow { margin: 0; font: 600 .75rem var(--sans); letter-spacing: .17em; color: var(--teal-light); }
 .hero-copy > .eyebrow { margin-top: clamp(2rem, 4vw, 3.7rem); }
@@ -166,7 +166,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .photo-card { min-width: 0; margin: 0; background: #eee6d8; }
 .photo-card:first-child:nth-last-child(1) { grid-column: 1 / -1; }
 .photo-card img { width: 100%; height: clamp(200px, 27vw, 360px); object-fit: cover; background: #e5dccd; }
-.photo-card video { display: block; width: 100%; max-height: 560px; aspect-ratio: 16 / 9; background: #17211f; object-fit: contain; }
+.photo-card video { display: block; width: 100%; height: auto; max-height: none; aspect-ratio: auto; background: #17211f; object-fit: contain; }
+.manuscript-flow > .photo-card.photo-card--video-flow { float: right; clear: none; width: min(34%, 250px); margin: .55rem 0 1.25rem 1.4rem; background: transparent; }
+.manuscript-flow > .photo-card.photo-card--video-flow video { width: 100%; height: auto; aspect-ratio: auto; }
 .manuscript-flow > .photo-card { margin: 2rem 0 2.6rem; }
 .manuscript-flow > .photo-card img { height: auto; max-height: 560px; object-fit: contain; }
 .manuscript-flow > .photo-card.photo-card--portrait { float: right; width: min(43%, 300px); margin: .55rem 0 1.25rem 1.5rem; background: transparent; }
@@ -313,7 +315,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .manuscript-flow > .photo-card img { width: 100%; height: auto; max-height: 430px; object-fit: contain; }
   .manuscript-flow > .photo-card.photo-card--portrait { float: none; width: 100%; margin: 1.55rem 0 2rem; }
   .manuscript-flow > .photo-card.photo-card--flow-right, .manuscript-flow > .photo-card.photo-card--ark-sunset-left { float: none; width: 100%; margin: 1.55rem 0 2rem; }
-  .manuscript-flow > .photo-card.photo-card--video { float: none; width: 100%; margin: 1.55rem 0 2rem; }
+  .manuscript-flow > .photo-card.photo-card--video-flow { float: none; width: min(78%, 320px); margin: 1.55rem auto 2rem; }
   .manuscript-flow > .photo-card.photo-card--day6-a.photo-card--portrait, .manuscript-flow > .photo-card.photo-card--day6-b.photo-card--portrait, .manuscript-flow > .photo-card.photo-card--flow-left.photo-card--portrait { float: none; width: 100%; margin: 1.55rem 0 2rem; }
   .photo-card:first-child:nth-last-child(1) { grid-column: auto; }
   .manuscript-flow > h2 { font-size: 1.8rem; }
