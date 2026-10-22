@@ -159,7 +159,7 @@
   };
   const photoPlacementBeforeRules = {
     3: [null, /본격적인 빵 만들기가 시작/],
-    4: [null, /베시크\(Beshik\)/, null, null, null, /자리에 앉아 망설임 없이/],
+    4: [null, /베시크\(Beshik\)/, null, null, null, /자리에 앉아 망설임 없이/, null, /안내되어 있는 옛 사진들을 보니/, /특히 붉은 꽃밭과 정갈한 구운 벽돌 건축물이/, null, null, null, /성에 오르는 길 이곳저곳을/],
     6: [/자, 이제 범핑 범핑\(Bumping Bumping\)/]
   };
 
@@ -171,7 +171,8 @@
     let guideOpen = false;
     const placedPhotos = new Set();
     const renderContextPhoto = (index) => {
-      const flowClass = dayNumber === 6 && index === 1 ? 'photo-card--day6-a' : dayNumber === 6 && index === 3 ? 'photo-card--day6-b' : dayNumber === 6 && index === 6 ? 'photo-card--flow-left' : '';
+      const day4Flow = dayNumber === 4 ? ({ 7: 'photo-card--flow-right', 8: 'photo-card--flow-right', 12: 'photo-card--ark-sunset-left' }[index] || '') : '';
+      const flowClass = day4Flow || (dayNumber === 6 && index === 1 ? 'photo-card--day6-a' : dayNumber === 6 && index === 3 ? 'photo-card--day6-b' : dayNumber === 6 && index === 6 ? 'photo-card--flow-left' : '');
       return renderPhoto(photos[dayNumber][index], true, flowClass);
     };
     const insertContextPhotos = (text) => {
@@ -186,15 +187,16 @@
           } else if (dayNumber === 7 && index === 1 && photos[dayNumber]?.[3]) {
             out.push(`<div class="photo-pair">${renderPhoto(photos[dayNumber][1])}${renderPhoto(photos[dayNumber][3])}</div>`);
             placedPhotos.add(3);
-          } else if (dayNumber === 4 && index === 3 && photos[dayNumber]?.[12]) {
-            out.push(`<div class="photo-pair">${renderPhoto(photos[dayNumber][3])}${renderPhoto(photos[dayNumber][12])}</div>`);
-            placedPhotos.add(12);
+          } else if (dayNumber === 4 && index === 9 && photos[dayNumber]?.[5]) {
+            out.push(`<div class="photo-pair photo-pair--portraits">${renderPhoto(photos[dayNumber][5])}${renderPhoto(photos[dayNumber][9])}</div>`);
+            placedPhotos.add(5);
           } else if (dayNumber === 4 && index === 2 && photos[dayNumber]?.[11]) {
             out.push(`<div class="photo-pair">${renderPhoto(photos[dayNumber][2])}${renderPhoto(photos[dayNumber][11])}</div>`);
             placedPhotos.add(11);
-          } else if (dayNumber === 6 && index === 7 && photos[dayNumber]?.[8]) {
-            out.push(`<div class="photo-pair photo-pair--portraits">${renderPhoto(photos[dayNumber][7])}${renderPhoto(photos[dayNumber][8])}</div>`);
-            placedPhotos.add(8);
+          } else if (dayNumber === 6 && index === 1 && photos[dayNumber]?.[3] && photos[dayNumber]?.[4] && photos[dayNumber]?.[7] && photos[dayNumber]?.[8]) {
+            const lakePhotos = [1, 3, 4, 7, 8];
+            out.push(`<div class="photo-gallery photo-gallery--lake">${lakePhotos.map((photoIndex) => renderPhoto(photos[dayNumber][photoIndex])).join('')}</div>`);
+            lakePhotos.slice(1).forEach((photoIndex) => placedPhotos.add(photoIndex));
           } else if (dayNumber === 8 && index === 8 && photos[dayNumber]?.[9]) {
             out.push(`<div class="photo-pair photo-pair--portraits">${renderPhoto(photos[dayNumber][8])}${renderPhoto(photos[dayNumber][9])}</div>`);
             placedPhotos.add(9);
