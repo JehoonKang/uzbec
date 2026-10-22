@@ -61,7 +61,8 @@
       { src: 'trip/20261015_134401.jpg_compressed.JPEG', alt: '사마르칸트에서 타슈켄트로 향하는 고속버스', caption: '타슈켄트행 버스 탑승', own: true },
       { src: 'trip/20261015_112355.jpg_compressed.JPEG', alt: '시아브 바자르에서 만난 우즈베키스탄 전통 그릇', caption: '시아브 바자르의 전통 공예품', own: true },
       { src: 'trip/20261015_204405.jpg_compressed.JPEG', alt: '밤이 된 타슈켄트의 운하 주변 거리', caption: '타슈켄트 서울문 인근의 밤', own: true },
-      { src: 'trip/SNOW_20261015_112038_033.jpg_compressed.JPEG', alt: '사마르칸트 시아브 바자르의 입구 간판과 건물', caption: '시아브 바자르 입구', own: true }
+      { src: 'trip/SNOW_20261015_112038_033.jpg_compressed.JPEG', alt: '사마르칸트 시아브 바자르의 입구 간판과 건물', caption: '시아브 바자르 입구', own: true },
+      { src: 'trip/20261015_213539.jpg', alt: '밤에 조명이 켜진 Hotel Marwa의 외관과 간판', caption: '타슈켄트 첫날 묵은 Hotel Marwa', own: true }
     ],
     8: [
       { src: 'trip/20261016_093315.jpg_compressed.JPEG', alt: '아미르소이 산악 리조트 입구의 풍경', caption: '아미르소이 리조트 도착', own: true },
@@ -80,7 +81,8 @@
       { src: 'destinations/tashkent-chorsu-bazaar.jpg', alt: '초르수 바자르의 큰 돔 아래 펼쳐진 실내 시장', caption: '타슈켄트 초르수 바자르 참고 사진', credit: 'Benjamin Goetzinger · CC BY-SA 4.0', href: 'https://commons.wikimedia.org/wiki/File:Chorsu_bazaar_in_Tashkent,_Uzbekistan.jpg', license: 'https://creativecommons.org/licenses/by-sa/4.0/' },
       { src: 'trip/20261017_120323.jpg_compressed.JPEG', alt: '푸른 돔과 유르트를 닮은 둥근 지붕이 있는 아미르 테무르 박물관 외관', caption: '아미르 테무르 박물관의 푸른 돔', own: true },
       { src: 'trip/20261017_123826.jpg_compressed.JPEG', alt: '아미르 테무르 박물관에 전시된 아미르 테무르의 초상화', caption: '박물관에서 만난 아미르 테무르 초상화', own: true },
-      { src: 'trip/SNOW_20261017_121759_936.jpg_compressed.JPEG', alt: '아미르 테무르 박물관 내부의 화려한 돔 천장과 샹들리에', caption: '박물관 돔 천장과 샹들리에', own: true }
+      { src: 'trip/SNOW_20261017_121759_936.jpg_compressed.JPEG', alt: '아미르 테무르 박물관 내부의 화려한 돔 천장과 샹들리에', caption: '박물관 돔 천장과 샹들리에', own: true },
+      { src: 'trip/20261017_201153.jpg', alt: '타슈켄트 국제공항 출국 안내판과 인천행 탑승을 앞둔 여권', caption: '타슈켄트 공항에서 인천행 비행기를 기다리며', own: true }
     ]
   };
 
@@ -153,9 +155,9 @@
     4: [/조식|아침 식사|아침 만찬/, /베시크\(Beshik\)/, /문화재 탐방이 시작|칼란 미나렛을 올려다보았다/, /아르크 성의 석양|붉게 노을빛으로 물들어가는/, /황금빛으로 빛나는 미나렛의 야경|밤이 깊어/, /시그니처 메뉴인 가장 유명한 라그만|라그만과 딜코에서 소문난 전통 만두/, /여성 장인들이 직접 손으로 카펫을 짜고/, /안내되어 있는 옛 사진들을 보니/, /붉은 꽃밭과 정갈한 구운 벽돌 건축물이/, /드디어 목적지인 '딜코'/, /잔잔한 호수 주변으로 밤의 조명이/, /본격적인 부하라 문화재 탐방이 시작/],
     5: [/레지스탄 광장.*이었다|레지스탄의 어원/, /타일 장식|마드라사 정면/, /$^/, /휘황찬란한 라이팅 쇼|마드라사 외벽을 도화지 삼아/, /열차 겉면에 큼직하게 박혀 있는|현대로템\(Hyundai Rotem\)/],
     6: [/$^/, /첫 번째 호수에 도착했을 때/, /거친 비포장도로로 순식간에|거친 돌산을 이리저리/, /각각의 호수를 지날 때마다/, /하얀 설산과 형형색색/, /얼마 후 도착한 국경 지대는/, /Avandia food\(아반디아 푸드\).*찾아냈다/, /가이드가 정성껏 나누어준 도시락/, /가이드가 정성껏 나누어준 도시락/],
-    7: [/드디어 버스에 올랐다|버스 계단을 올라타는 순간/, /각 섹션별로 견과류/, /물길 위에서 화려한 분수쇼|주변을 둘러보니,.*서울문/, /$^/],
+    7: [/드디어 버스에 올랐다|버스 계단을 올라타는 순간/, /각 섹션별로 견과류/, /물길 위에서 화려한 분수쇼|주변을 둘러보니,.*서울문/, /$^/, /Marwa hotel\(마르와 호텔\)/],
     8: [/도착한 곳은 바로 아미르소이 리조트/, /창밖으로 펼쳐지는 주변 광경/, /$^/, /$^/, /실제로 마주한 차르박 호수의 풍경/, /호숫가 주변에 멈춰 서서/, /다가오는 의자에 타이밍을 딱 맞춰 겨우겨우 탑승에 성공했다/, /티본스테이크를 주문했다/, /저 멀리 아득한 곳까지 산등성이를 따라/, /저 멀리 아득한 곳까지 산등성이를 따라/, /호숫가 주변에 멈춰 서서/],
-    9: [/초르수 바자르|타슈켄트의 심장부/, /아미르 테무르 박물관.*안으로 들어섰다/, /$^/, /$^/]
+    9: [/초르수 바자르|타슈켄트의 심장부/, /아미르 테무르 박물관.*안으로 들어섰다/, /$^/, /$^/, /타슈켄트 국제공항에 도착했다|공항으로 향했다/]
   };
   const photoPlacementBeforeRules = {
     3: [null, /본격적인 빵 만들기가 시작/],
@@ -360,7 +362,7 @@
     source: bodySource.slice(match.index, dayMatches[index + 1]?.index ?? bodySource.length).trim()
   }));
 
-  const mapSvg = `<div class="route-map-wrap"><div class="route-map-viewport" tabindex="0" aria-label="지도를 좌우로 움직여 자세히 보기"><img class="route-map-image" src="./img/central-asia-route.svg?v=20261022-2" alt="Natural Earth 국가 경계와 실제 좌표를 사용해 그린 중앙아시아 여행 지도. 우르겐치와 히바에서 부하라, 사마르칸트, 펜지켄트와 7개 호수로 이어지고 타슈켄트, 침간산, 차르박 호수까지 표시했습니다."></div><div class="map-legend"><span><i class="legend-land"></i> 도시 간 이동</span><span><i class="legend-air"></i> 항공 이동</span><small>지도 표식을 누르면 해당 날짜의 여행기로 이동합니다. · 도시 위치 및 국경선: Natural Earth · <a href="https://www.naturalearthdata.com/">공개 지도 데이터</a>. 경로는 여행 순서를 연결한 개요입니다.</small></div><div class="map-place-links"><a href="#day-1">타슈켄트</a><a href="#day-2">우르겐치 · 히바</a><a href="#day-4">부하라</a><a href="#day-5">사마르칸트</a><a href="#day-6">펜지켄트 · 7개 호수</a><a href="#day-8">침간산 · 차르박</a></div></div>`;
+  const mapSvg = `<div class="route-map-wrap"><div class="route-map-viewport" tabindex="0" aria-label="지도를 좌우로 움직여 자세히 보기"><img class="route-map-image" src="./img/central-asia-route.svg?v=20261022-3" alt="Natural Earth 국가 경계와 실제 좌표를 사용해 그린 중앙아시아 여행 지도. 우르겐치와 히바에서 부하라, 사마르칸트, 펜지켄트와 7개 호수로 이어지고 타슈켄트, 침간산, 차르박 호수까지 표시했습니다."></div><div class="map-legend"><span><i class="legend-land"></i> 도시 간 이동</span><span><i class="legend-air"></i> 항공 이동</span><small>지도 표식을 누르면 해당 날짜의 여행기로 이동합니다. · 도시 위치 및 국경선: Natural Earth · <a href="https://www.naturalearthdata.com/">공개 지도 데이터</a>. 경로는 여행 순서를 연결한 개요입니다.</small></div><div class="map-place-links"><a href="#day-1">타슈켄트</a><a href="#day-2">우르겐치 · 히바</a><a href="#day-4">부하라</a><a href="#day-5">사마르칸트</a><a href="#day-6">펜지켄트 · 7개 호수</a><a href="#day-8">침간산 · 차르박</a></div></div>`;
 
   const dayNav = days.map((day) => {
     const date = day.title.match(/(\d{1,2})월\s*(\d{1,2})일/);
