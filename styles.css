@@ -150,6 +150,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .photo-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(.8rem, 2vw, 1.5rem); width: min(100%, 680px); margin: 1.8rem auto 2.4rem; clear: both; }
 .photo-pair .photo-card { min-width: 0; background: transparent; }
 .photo-pair .photo-card img { width: 100%; height: clamp(260px, 34vw, 390px); object-fit: contain; background: #eee6d8; }
+.photo-pair--portraits { width: min(100%, 560px); grid-template-columns: repeat(2, minmax(0, 250px)); justify-content: center; }
+.photo-pair--portraits .photo-card img { height: clamp(300px, 42vw, 430px); object-fit: contain; background: transparent; }
 .photo-triptych { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(.45rem, 1.3vw, 1rem); width: min(100%, 900px); margin: 1.8rem auto 2.4rem; clear: both; }
 .photo-triptych .photo-card { min-width: 0; background: transparent; }
 .photo-triptych .photo-card img { width: 100%; height: clamp(220px, 28vw, 340px); object-fit: contain; background: #eee6d8; }
@@ -158,6 +160,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .photo-card { min-width: 0; margin: 0; background: #eee6d8; }
 .photo-card:first-child:nth-last-child(1) { grid-column: 1 / -1; }
 .photo-card img { width: 100%; height: clamp(200px, 27vw, 360px); object-fit: cover; background: #e5dccd; }
+.photo-card video { display: block; width: 100%; max-height: 560px; aspect-ratio: 16 / 9; background: #17211f; object-fit: contain; }
 .manuscript-flow > .photo-card { margin: 2rem 0 2.6rem; }
 .manuscript-flow > .photo-card img { height: auto; max-height: 560px; object-fit: contain; }
 .manuscript-flow > .photo-card.photo-card--portrait { float: right; width: min(43%, 300px); margin: .55rem 0 1.25rem 1.5rem; background: transparent; }
@@ -283,6 +286,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .day-gallery { grid-template-columns: 1fr; gap: .65rem; margin: 1rem 0 2.2rem; }
   .photo-pair { width: min(100%, 560px); gap: .55rem; margin: 1.2rem auto 1.8rem; }
   .photo-pair .photo-card img { height: clamp(190px, 54vw, 280px); }
+  .photo-pair--portraits { width: min(100%, 500px); gap: .5rem; }
+  .photo-pair--portraits .photo-card img { height: clamp(210px, 62vw, 330px); }
   .photo-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .3rem; width: 100%; margin: 1.2rem auto 1.8rem; }
   .photo-triptych--museum { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .4rem; width: min(100%, 560px); margin: 1.2rem auto 1.8rem; }
   .photo-triptych--museum .photo-card img { height: auto; }
@@ -292,6 +297,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .manuscript-flow > .photo-card { margin: 1.55rem 0 2rem; }
   .manuscript-flow > .photo-card img { width: 100%; height: auto; max-height: 430px; object-fit: contain; }
   .manuscript-flow > .photo-card.photo-card--portrait { float: none; width: 100%; margin: 1.55rem 0 2rem; }
+  .manuscript-flow > .photo-card.photo-card--video { float: none; width: 100%; margin: 1.55rem 0 2rem; }
   .manuscript-flow > .photo-card.photo-card--day6-a.photo-card--portrait, .manuscript-flow > .photo-card.photo-card--day6-b.photo-card--portrait, .manuscript-flow > .photo-card.photo-card--flow-left.photo-card--portrait { float: none; width: 100%; margin: 1.55rem 0 2rem; }
   .photo-card:first-child:nth-last-child(1) { grid-column: auto; }
   .manuscript-flow > h2 { font-size: 1.8rem; }

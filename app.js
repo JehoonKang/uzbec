@@ -13,11 +13,13 @@
       { src: 'trip/20261010_162711.jpg_compressed.JPEG', alt: '이찬 칼라 광장과 벽돌 미나렛', caption: '이찬 칼라의 유적들', own: true },
       { src: 'trip/20261010_192007.jpg_compressed.JPEG', alt: '밤의 이찬 칼라 성벽과 골목', caption: '불이 켜지기 시작한 성내 풍경', own: true },
       { src: 'trip/20261010_210833.jpg_compressed.JPEG', alt: '밤 조명으로 빛나는 칼타 미노르', caption: '조명이 켜진 히바의 밤', own: true },
+      { src: 'trip/20261010_112228.jpg', alt: '초록색 시비트 오시 위에 고기와 채소를 얹은 접시', caption: '테라사의 초록색 시비트 오시', own: true },
+      { src: 'trip/20261010_090608.mp4', alt: '사막 도로를 달리며 차 안에서 들은 트로트 메들리', caption: '우즈베키스탄 사막길에서 울려 퍼진 트로트 메들리', own: true, video: true },
     ],
     3: [
       { src: 'trip/20261011_111432.jpg_compressed.JPEG', alt: '히바 난 쿠킹클래스에서 둥글게 만든 반죽', caption: '난 쿠킹클래스의 반죽', own: true },
       { src: 'trip/20261011_113107.jpg_compressed.JPEG', alt: '전통 화덕에서 빵을 굽는 모습', caption: '화덕에서 구워지는 난', own: true },
-      { src: 'trip/20261011_124923.jpg_compressed.JPEG', alt: '히바 식당에서 마신 사르바스트 맥주와 음료', caption: '기차를 기다리며 잠시 쉰 시간', own: true },
+      { src: 'trip/20261011_125313.jpg', alt: '히바에서 기차를 기다리며 잠시 쉬는 동안 촬영한 식탁과 여행객', caption: '기차를 기다리며 잠시 쉰 시간', own: true },
       { src: 'trip/20261011_130603.jpg_compressed.JPEG', alt: '우즈베키스탄 맥주 사르바스트 병', caption: '현지 맥주 사르바스트', own: true },
       { src: 'trip/20261011_151410.jpg_compressed.JPEG', alt: '히바역 플랫폼에 정차한 장거리 열차', caption: '부하라행 열차를 기다리던 히바역', own: true },
       { src: 'trip/20261011_151857.jpg_compressed.JPEG', alt: '우즈베키스탄 침대열차 객실의 1층 침대', caption: '러시아식 침대열차 객실', own: true }
@@ -29,7 +31,13 @@
       { src: 'trip/20261012_183100.jpg_compressed.JPEG', alt: '저녁 조명을 받은 부하라 역사 건축물', caption: '해가 진 뒤의 부하라', own: true },
       { src: 'trip/20261012_211001.jpg_compressed.JPEG', alt: '밤하늘 아래 조명이 켜진 부하라 미나렛', caption: '부하라의 미나렛 야경', own: true },
       { src: 'trip/20261012_135823.jpg_compressed.JPEG', alt: '부하라 딜코 식당에서 맛본 고기와 채소를 얹은 라그만', caption: '딜코의 인생 라그만', own: true },
-      { src: 'trip/20261012_112553.jpg_compressed.JPEG', alt: '부하라 공방에서 수작업으로 카펫을 짜는 여성 장인', caption: '부하라 여성 장인의 카펫 직조', own: true }
+      { src: 'trip/20261012_112553.jpg_compressed.JPEG', alt: '부하라 공방에서 수작업으로 카펫을 짜는 여성 장인', caption: '부하라 여성 장인의 카펫 직조', own: true },
+      { src: 'trip/20261012_104428.jpg', alt: '부하라 목욕탕 안내판에 전시된 전통 마사지 장면의 옛 사진', caption: '함맘에 전시된 옛 목욕과 마사지 사진', own: true },
+      { src: 'trip/20261012_124621.jpg', alt: '붉은 꽃밭 앞에 우뚝 선 구운 벽돌의 이스마일 사마니 영묘', caption: '붉은 꽃밭과 이스마일 사마니 영묘', own: true },
+      { src: 'trip/20261012_134650.jpg', alt: '부하라 딜코(Dilkusho) 식당의 외관과 간판', caption: '부하라 딜코 식당', own: true },
+      { src: 'trip/B612_20261012_190108_379.jpg', alt: '라비하우스 호수 주변 조명과 분수, 야외 식당의 저녁 식탁', caption: '라비하우스 호숫가 야외 식당의 저녁', own: true },
+      { src: 'trip/SNOW_20261012_122741_268.jpg', alt: '부하라의 전통 건축물 정면과 아치형 입구', caption: '부하라 구시가지의 아치형 건축물', own: true },
+      { src: 'trip/SNOW_20261012_171140_776.jpg', alt: '아르크 성에서 바라본 노을빛 부하라 시내와 푸른 돔', caption: '아르크 성에서 바라본 석양 무렵의 부하라', own: true }
     ],
     5: [
       { src: 'trip/20261013_162217.jpg_compressed.JPEG', alt: '사마르칸트 레기스탄 광장의 세 마드라사', caption: '레기스탄 광장의 첫 풍경', own: true },
@@ -45,7 +53,9 @@
       { src: 'trip/B612_20261014_154045_564.jpg_compressed.JPEG', alt: '절벽 사이로 이어지는 맑고 푸른 산악 호수', caption: '펜지켄트 7개 호수의 물빛', own: true },
       { src: 'trip/SNOW_20261014_125456_791.jpg_compressed.JPEG', alt: '판 산맥 호숫가에서 바라본 설산과 맑은 하늘', caption: '호수 위로 펼쳐진 산악 풍경', own: true },
       { src: 'trip/20261014_080629.jpg_compressed.JPEG', alt: '우즈베키스탄과 타지키스탄 국경의 소박한 검문소와 출입국 게이트', caption: '우즈베키스탄·타지키스탄 국경 검문소', own: true },
-      { src: 'trip/20261014_202726.jpg_compressed.JPEG', alt: 'Avandia food에서 주문한 샤실릭과 케밥, 구운 채소와 음료', caption: 'Avandia food의 샤실릭과 저녁 식탁', own: true }
+      { src: 'trip/20261014_202726.jpg_compressed.JPEG', alt: 'Avandia food에서 주문한 샤실릭과 케밥, 구운 채소와 음료', caption: 'Avandia food의 샤실릭과 저녁 식탁', own: true },
+      { src: 'trip/SNOW_20261014_121744_646.jpg', alt: '타지키스탄 7개 호수 중 한 곳의 청록빛 물과 산악 풍경', caption: '7개 호수의 맑은 물빛', own: true },
+      { src: 'trip/SNOW_20261014_121917_960.jpg', alt: '산 사이로 펼쳐진 호수와 호숫가에 선 여행객', caption: '산과 호수가 만나는 7개 호수의 풍경', own: true }
     ],
     7: [
       { src: 'trip/20261015_134401.jpg_compressed.JPEG', alt: '사마르칸트에서 타슈켄트로 향하는 고속버스', caption: '타슈켄트행 버스 탑승', own: true },
@@ -61,7 +71,10 @@
       { src: 'trip/20261016_153030.jpg_compressed.JPEG', alt: '산기슭에서 내려다본 차르박 호수', caption: '차르박 호수 파노라마', own: true },
       { src: 'trip/20261016_153447.jpg_compressed.JPEG', alt: '산과 맞닿은 차르박 호수의 넓은 풍경', caption: '차르박 호수와 주변 산맥', own: true },
       { src: 'trip/20261016_141639.jpg_compressed.JPEG', alt: '침간산의 바위 경사면을 오르는 야외 체어리프트', caption: '침간산 체어리프트에 오르며', own: true },
-      { src: 'trip/20261016_185929.jpg_compressed.JPEG', alt: 'Hammer Smith 레스토랑에서 주문한 큼직한 티본스테이크와 곁들임 음식', caption: 'Hammer Smith의 티본스테이크 만찬', own: true }
+      { src: 'trip/20261016_185929.jpg_compressed.JPEG', alt: 'Hammer Smith 레스토랑에서 주문한 큼직한 티본스테이크와 곁들임 음식', caption: 'Hammer Smith의 티본스테이크 만찬', own: true },
+      { src: 'trip/SNOW_20261016_112136_457.jpg', alt: '침간산의 높은 산길에서 풍경을 바라보는 여행객', caption: '침간산 고지대의 산악 풍경', own: true },
+      { src: 'trip/SNOW_20261016_112857_672.jpg', alt: '침간산 산등성이에 앉아 바라본 천산산맥', caption: '천산산맥 능선에서 잠시 쉬어 가며', own: true },
+      { src: 'trip/SNOW_20261016_153909_493.jpg', alt: '차르박 호수와 산길을 배경으로 선 여행객', caption: '차르박 호숫가 산책길', own: true }
     ],
     9: [
       { src: 'destinations/tashkent-chorsu-bazaar.jpg', alt: '초르수 바자르의 큰 돔 아래 펼쳐진 실내 시장', caption: '타슈켄트 초르수 바자르 참고 사진', credit: 'Benjamin Goetzinger · CC BY-SA 4.0', href: 'https://commons.wikimedia.org/wiki/File:Chorsu_bazaar_in_Tashkent,_Uzbekistan.jpg', license: 'https://creativecommons.org/licenses/by-sa/4.0/' },
@@ -135,13 +148,13 @@
 
   const photoPlacementRules = {
     1: [/공항에 도착|공항 도착/],
-    2: [/우르겐치행 국내선|기내에는/, /곧장 유명한|테라사 레스토랑/, /이찬 칼라 성곽|첫 산책/, /칼타 미노르의 푸른|푸른 미나렛/, /영어가이드의 빠른|본격적인 가이드 해설/, /아르시 테라사/, /식당을 나와 아내와 손을 잡고/],
+    2: [/우르겐치행 국내선|기내에는/, /곧장 유명한|테라사 레스토랑/, /이찬 칼라 성곽|첫 산책/, /칼타 미노르의 푸른|푸른 미나렛/, /영어가이드의 빠른|본격적인 가이드 해설/, /아르시 테라사/, /식당을 나와 아내와 손을 잡고/, /그 소문으로만 듣던 초록색 '시비트 오시'/, /트로트 메들리를 짱짱하게 틀어주는/],
     3: [/쿠킹클래스 장소|반죽을/, /직접 만든 빵|갓 구워낸/, /비바람을 피해 아늑한 실내로 들어가/, /사르바스트.*시원한 한 잔/, /히바역 도착|히바역에/, /침대칸|열차 객실/],
-    4: [/조식|아침 식사|아침 만찬/, /베시크\(Beshik\)/, /문화재 탐방이 시작|칼란 미나렛을 올려다보았다/, /아르크 성의 석양|붉게 노을빛으로 물들어가는/, /황금빛으로 빛나는 미나렛의 야경|밤이 깊어/, /시그니처 메뉴인 가장 유명한 라그만|라그만과 딜코에서 소문난 전통 만두/, /여성 장인들이 직접 손으로 카펫을 짜고/],
+    4: [/조식|아침 식사|아침 만찬/, /베시크\(Beshik\)/, /문화재 탐방이 시작|칼란 미나렛을 올려다보았다/, /아르크 성의 석양|붉게 노을빛으로 물들어가는/, /황금빛으로 빛나는 미나렛의 야경|밤이 깊어/, /시그니처 메뉴인 가장 유명한 라그만|라그만과 딜코에서 소문난 전통 만두/, /여성 장인들이 직접 손으로 카펫을 짜고/, /안내되어 있는 옛 사진들을 보니/, /붉은 꽃밭과 정갈한 구운 벽돌 건축물이/, /드디어 목적지인 '딜코'/, /잔잔한 호수 주변으로 밤의 조명이/, /본격적인 부하라 문화재 탐방이 시작/],
     5: [/레지스탄 광장.*이었다|레지스탄의 어원/, /타일 장식|마드라사 정면/, /$^/, /휘황찬란한 라이팅 쇼|마드라사 외벽을 도화지 삼아/, /열차 겉면에 큼직하게 박혀 있는|현대로템\(Hyundai Rotem\)/],
-    6: [/$^/, /첫 번째 호수에 도착했을 때/, /거친 비포장도로로 순식간에|거친 돌산을 이리저리/, /각각의 호수를 지날 때마다/, /하얀 설산과 형형색색/, /얼마 후 도착한 국경 지대는/, /Avandia food\(아반디아 푸드\).*찾아냈다/],
+    6: [/$^/, /첫 번째 호수에 도착했을 때/, /거친 비포장도로로 순식간에|거친 돌산을 이리저리/, /각각의 호수를 지날 때마다/, /하얀 설산과 형형색색/, /얼마 후 도착한 국경 지대는/, /Avandia food\(아반디아 푸드\).*찾아냈다/, /가이드가 정성껏 나누어준 도시락/, /가이드가 정성껏 나누어준 도시락/],
     7: [/드디어 버스에 올랐다|버스 계단을 올라타는 순간/, /각 섹션별로 견과류/, /물길 위에서 화려한 분수쇼|주변을 둘러보니,.*서울문/, /$^/],
-    8: [/도착한 곳은 바로 아미르소이 리조트/, /창밖으로 펼쳐지는 주변 광경/, /$^/, /$^/, /실제로 마주한 차르박 호수의 풍경/, /호숫가 주변에 멈춰 서서/, /다가오는 의자에 타이밍을 딱 맞춰 겨우겨우 탑승에 성공했다/, /티본스테이크를 주문했다/],
+    8: [/도착한 곳은 바로 아미르소이 리조트/, /창밖으로 펼쳐지는 주변 광경/, /$^/, /$^/, /실제로 마주한 차르박 호수의 풍경/, /호숫가 주변에 멈춰 서서/, /다가오는 의자에 타이밍을 딱 맞춰 겨우겨우 탑승에 성공했다/, /티본스테이크를 주문했다/, /저 멀리 아득한 곳까지 산등성이를 따라/, /저 멀리 아득한 곳까지 산등성이를 따라/, /호숫가 주변에 멈춰 서서/],
     9: [/초르수 바자르|타슈켄트의 심장부/, /아미르 테무르 박물관.*안으로 들어섰다/, /$^/, /$^/]
   };
   const photoPlacementBeforeRules = {
@@ -173,6 +186,21 @@
           } else if (dayNumber === 7 && index === 1 && photos[dayNumber]?.[3]) {
             out.push(`<div class="photo-pair">${renderPhoto(photos[dayNumber][1])}${renderPhoto(photos[dayNumber][3])}</div>`);
             placedPhotos.add(3);
+          } else if (dayNumber === 4 && index === 3 && photos[dayNumber]?.[12]) {
+            out.push(`<div class="photo-pair">${renderPhoto(photos[dayNumber][3])}${renderPhoto(photos[dayNumber][12])}</div>`);
+            placedPhotos.add(12);
+          } else if (dayNumber === 4 && index === 2 && photos[dayNumber]?.[11]) {
+            out.push(`<div class="photo-pair">${renderPhoto(photos[dayNumber][2])}${renderPhoto(photos[dayNumber][11])}</div>`);
+            placedPhotos.add(11);
+          } else if (dayNumber === 6 && index === 7 && photos[dayNumber]?.[8]) {
+            out.push(`<div class="photo-pair photo-pair--portraits">${renderPhoto(photos[dayNumber][7])}${renderPhoto(photos[dayNumber][8])}</div>`);
+            placedPhotos.add(8);
+          } else if (dayNumber === 8 && index === 8 && photos[dayNumber]?.[9]) {
+            out.push(`<div class="photo-pair photo-pair--portraits">${renderPhoto(photos[dayNumber][8])}${renderPhoto(photos[dayNumber][9])}</div>`);
+            placedPhotos.add(9);
+          } else if (dayNumber === 8 && index === 5 && photos[dayNumber]?.[10]) {
+            out.push(`<div class="photo-pair">${renderPhoto(photos[dayNumber][5])}${renderPhoto(photos[dayNumber][10])}</div>`);
+            placedPhotos.add(10);
           } else if (dayNumber === 8 && index === 1 && photos[dayNumber]?.[2] && photos[dayNumber]?.[3]) {
             out.push(`<div class="photo-triptych">${renderPhoto(photos[dayNumber][1])}${renderPhoto(photos[dayNumber][2])}${renderPhoto(photos[dayNumber][3])}</div>`);
             placedPhotos.add(2);
@@ -305,7 +333,10 @@
   const renderPhoto = (photo, lazy = true, flowClass = '') => {
     const sourceCredit = photo.own ? '<span class="photo-origin">여행 중 촬영</span>' : `<a class="photo-credit" href="${photo.href}" target="_blank" rel="noreferrer">${escapeHtml(photo.credit)} · 출처</a>`;
     const license = photo.own ? '' : ` <a class="license-link" href="${photo.license}" target="_blank" rel="noreferrer">라이선스</a>`;
-    return `<figure class="photo-card${flowClass ? ` ${flowClass}` : ''}"><img src="${photoPath(photo)}" alt="${escapeHtml(photo.alt)}" ${lazy ? 'loading="lazy"' : 'fetchpriority="high"'}><figcaption><span>${escapeHtml(photo.caption)}</span>${sourceCredit}${license}</figcaption></figure>`;
+    const media = photo.video
+      ? `<video controls playsinline preload="metadata" aria-label="${escapeHtml(photo.alt)}"><source src="${photoPath(photo)}" type="video/mp4">이 브라우저는 이 동영상을 재생할 수 없습니다.</video>`
+      : `<img src="${photoPath(photo)}" alt="${escapeHtml(photo.alt)}" ${lazy ? 'loading="lazy"' : 'fetchpriority="high"'}>`;
+    return `<figure class="photo-card${photo.video ? ' photo-card--video' : ''}${flowClass ? ` ${flowClass}` : ''}">${media}<figcaption><span>${escapeHtml(photo.caption)}</span>${sourceCredit}${license}</figcaption></figure>`;
   };
 
   const prologueStart = source.indexOf('📌');
